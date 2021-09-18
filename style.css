@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: o;
+    padding: 0;
+    
+    font-family: 'Cinzel Decorative', cursive;
+
+}
+
+nav li a {
+    
+    font-weight: 500;
+    font-size: 16px;
+    color: brown;
+    text-decoration: none;
+
+}
+
+
+nav {
+    background: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 16%;
+
+}
+
+nav > li {
+    float:left ;
+}
+
+nav ul li {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+nav li:hover > ul {
+    display: block;
+
+}
+
+.navBar {
+    list-style: none;
+}
+
+.navBar li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+
+.navBar li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navBar li a:hover {
+    color: chartreuse;
+}
+
+
